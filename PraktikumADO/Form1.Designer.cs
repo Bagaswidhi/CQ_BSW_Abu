@@ -28,21 +28,88 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnHitungMhs = new System.Windows.Forms.Button();
+            this.btnHitungMK = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnConnect = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtHasil = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
+            // 
+            // btnHitungMhs
+            // 
+            this.btnHitungMhs.Location = new System.Drawing.Point(332, 415);
+            this.btnHitungMhs.Name = "btnHitungMhs";
+            this.btnHitungMhs.Size = new System.Drawing.Size(135, 23);
+            this.btnHitungMhs.TabIndex = 0;
+            this.btnHitungMhs.Text = "Hitung Mhs";
+            this.btnHitungMhs.UseVisualStyleBackColor = true;
+            // 
+            // btnHitungMK
+            // 
+            this.btnHitungMK.Location = new System.Drawing.Point(607, 415);
+            this.btnHitungMK.Name = "btnHitungMK";
+            this.btnHitungMK.Size = new System.Drawing.Size(135, 23);
+            this.btnHitungMK.TabIndex = 1;
+            this.btnHitungMK.Text = "Hitung MK";
+            this.btnHitungMK.UseVisualStyleBackColor = true;
+            // 
+            // btnUpdate
+            // 
+            this.btnUpdate.Location = new System.Drawing.Point(873, 415);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(135, 23);
+            this.btnUpdate.TabIndex = 2;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            // 
+            // btnConnect
+            // 
+            this.btnConnect.Location = new System.Drawing.Point(63, 415);
+            this.btnConnect.Name = "btnConnect";
+            this.btnConnect.Size = new System.Drawing.Size(135, 23);
+            this.btnConnect.TabIndex = 3;
+            this.btnConnect.Text = "Connect";
+            this.btnConnect.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(80, 83);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(45, 16);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "HASIL";
+            // 
+            // txtHasil
+            // 
+            this.txtHasil.Location = new System.Drawing.Point(186, 80);
+            this.txtHasil.Name = "txtHasil";
+            this.txtHasil.Size = new System.Drawing.Size(787, 22);
+            this.txtHasil.TabIndex = 5;
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(803, 464);
+            this.ClientSize = new System.Drawing.Size(1087, 485);
+            this.Controls.Add(this.txtHasil);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnConnect);
+            this.Controls.Add(this.btnUpdate);
+            this.Controls.Add(this.btnHitungMK);
+            this.Controls.Add(this.btnHitungMhs);
             this.Name = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
+
+
         #endregion
 
-        private System.Windows.Forms.Button btnUpdate;
-        private System.Windows.Forms.Button btnHitungMK;
         private System.Windows.Forms.Button btnHitungMhs;
+        private System.Windows.Forms.Button btnHitungMK;
+        private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnConnect;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtHasil;
