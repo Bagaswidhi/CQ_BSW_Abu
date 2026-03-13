@@ -35,6 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtHasil = new System.Windows.Forms.TextBox();
             this.btnHitungDosen = new System.Windows.Forms.Button();
+            this.UpdateMK = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnHitungMhs
@@ -95,7 +96,7 @@
             // 
             // btnHitungDosen
             // 
-            this.btnHitungDosen.Location = new System.Drawing.Point(198, 365);
+            this.btnHitungDosen.Location = new System.Drawing.Point(197, 321);
             this.btnHitungDosen.Name = "btnHitungDosen";
             this.btnHitungDosen.Size = new System.Drawing.Size(135, 23);
             this.btnHitungDosen.TabIndex = 6;
@@ -103,9 +104,20 @@
             this.btnHitungDosen.UseVisualStyleBackColor = true;
             this.btnHitungDosen.Click += new System.EventHandler(this.btnHitungDosen_Click);
             // 
+            // UpdateMK
+            // 
+            this.UpdateMK.Location = new System.Drawing.Point(468, 321);
+            this.UpdateMK.Name = "UpdateMK";
+            this.UpdateMK.Size = new System.Drawing.Size(135, 23);
+            this.UpdateMK.TabIndex = 7;
+            this.UpdateMK.Text = "UpdateMK";
+            this.UpdateMK.UseVisualStyleBackColor = true;
+            this.UpdateMK.Click += new System.EventHandler(this.UpdateMK_Click);
+            // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(1087, 485);
+            this.Controls.Add(this.UpdateMK);
             this.Controls.Add(this.btnHitungDosen);
             this.Controls.Add(this.txtHasil);
             this.Controls.Add(this.label1);
@@ -130,6 +142,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtHasil;
         private System.Windows.Forms.Button btnHitungDosen;
+        private System.Windows.Forms.Button UpdateMK;
     }
 }
 
