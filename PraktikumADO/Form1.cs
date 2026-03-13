@@ -130,5 +130,10 @@ namespace PraktikumADO
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void insrtPS_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

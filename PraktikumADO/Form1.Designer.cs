@@ -36,6 +36,7 @@
             this.txtHasil = new System.Windows.Forms.TextBox();
             this.btnHitungDosen = new System.Windows.Forms.Button();
             this.UpdateMK = new System.Windows.Forms.Button();
+            this.insrtPS = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnHitungMhs
@@ -114,9 +115,20 @@
             this.UpdateMK.UseVisualStyleBackColor = true;
             this.UpdateMK.Click += new System.EventHandler(this.UpdateMK_Click);
             // 
+            // insrtPS
+            // 
+            this.insrtPS.Location = new System.Drawing.Point(740, 321);
+            this.insrtPS.Name = "insrtPS";
+            this.insrtPS.Size = new System.Drawing.Size(143, 23);
+            this.insrtPS.TabIndex = 8;
+            this.insrtPS.Text = "Insert Program Studi";
+            this.insrtPS.UseVisualStyleBackColor = true;
+            this.insrtPS.Click += new System.EventHandler(this.insrtPS_Click);
+            // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(1087, 485);
+            this.Controls.Add(this.insrtPS);
             this.Controls.Add(this.UpdateMK);
             this.Controls.Add(this.btnHitungDosen);
             this.Controls.Add(this.txtHasil);
@@ -143,6 +155,7 @@
         private System.Windows.Forms.TextBox txtHasil;
         private System.Windows.Forms.Button btnHitungDosen;
         private System.Windows.Forms.Button UpdateMK;
+        private System.Windows.Forms.Button insrtPS;
     }
 }
 
