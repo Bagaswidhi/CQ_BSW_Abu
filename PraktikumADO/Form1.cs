@@ -25,7 +25,7 @@ namespace PraktikumADO
             InitializeComponent();
         }
 
-        private void btnConnect_Click(object sender, EventArgs e)
+        private void btnConnect_Click_1(object sender, EventArgs e)
         {
             try
             {
@@ -41,7 +41,7 @@ namespace PraktikumADO
             }
         }
 
-        private void btnHitungMhs_Click(object sender, EventArgs e)
+        private void btnHitungMhs_Click_1(object sender, EventArgs e)
         {
             try
             {
@@ -59,7 +59,7 @@ namespace PraktikumADO
             }
         }
 
-        private void btnHitungMK_Click(object sender, EventArgs e)
+        private void btnHitungMK_Click_1(object sender, EventArgs e)
         {
             try
             {
@@ -77,7 +77,7 @@ namespace PraktikumADO
             }
         }
 
-        private void btnUpdate_Click(object sender, EventArgs e)
+        private void btnUpdate_Click_1(object sender, EventArgs e)
         {
             try
             {
